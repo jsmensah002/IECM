@@ -1,0 +1,15 @@
+Last login: Fri Nov 20 10:39:44 on ttys001
+jessesarpong-mensah@MacBookAir ~ % python3 grab.py
+Independent variable (X-axis) column name: Absorber CO2 Removal Efficiency (%)
+Copy the IECM table, then type the dependent column name (or 'done'): Net Electrical Output (MW)
+  captured 10 rows for 'Net Electrical Output (MW)': 60->420.1, 64.33->418.2, 68.67->416.3 ...
+Copy the IECM table, then type the dependent column name (or 'done'): CO2 Removed Value (tons/hour)
+  captured 10 rows for 'CO2 Removed Value (tons/hour)': 60->255.2, 64.33->275.6, 68.67->296.4 ...
+Copy the IECM table, then type the dependent column name (or 'done'): Cost of CO2 Captured Value ($/ton)
+  captured 10 rows for 'Cost of CO2 Captured Value ($/ton)': 60->205.6, 64.33->192, 68.67->180.1 ...
+Copy the IECM table, then type the dependent column name (or 'done'): Water Consumption (tons/hour)
+  captured 10 rows for 'Water Consumption (tons/hour)': 60->880.7, 64.33->897.6, 68.67->914.5 ...
+Copy the IECM table, then type the dependent column name (or 'done'): done
+Save as (.csv added if you omit it): CO2_Capture_Efficiency_Sensitivity_Analysis
+Done! Saved 10 rows, 4 dependent columns to CO2_Capture_Efficiency_Sensitivity_Analysis.csv
+jessesarpong-mensah@MacBookAir ~ % 
