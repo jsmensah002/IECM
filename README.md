@@ -18,5 +18,4 @@ node regional cluster with shared transport and storage becomes tractable.
 
 Note that the configurations, variable selections and value ranges here were
 chosen for practice, to exercise the pipeline rather than model any specific
-plant. In a real study they would be grounded in literature and process data
-instead of picked by hand.
+plant. In a real study they would be grounded in literature and process data.
