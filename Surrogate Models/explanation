@@ -1,0 +1,1 @@
+For each output (target) we train two surrogates, a tree based model read with SHAP to explain what drives it and a smooth linear or polynomial model to embed in the Pyomo optimizer, so every plant becomes fast equations a cluster optimizer can query instead of rerunning IECM.
