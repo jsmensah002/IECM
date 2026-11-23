@@ -1,0 +1,386 @@
+{
+  "intercept": -0.040609202450241355,
+  "degree": 3,
+  "terms": [
+    {
+      "coef": 0.906980972179016,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1
+      }
+    },
+    {
+      "coef": 0.009172977135337582,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 1
+      }
+    },
+    {
+      "coef": -0.005119452032678001,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": -0.004675338922531235,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -0.022895354442190537,
+      "powers": {
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 3.34284416324909e-07,
+      "powers": {
+        "Gross Electrical Output (MWg)": 2
+      }
+    },
+    {
+      "coef": -2.7141777618219556e-06,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "As-Delivered Primary Fuel Cost ($/ton)": 1
+      }
+    },
+    {
+      "coef": 3.346421125614081e-06,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": 1.410174971317525e-05,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -0.009990883907243581,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -6.458809563945664e-05,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 2
+      }
+    },
+    {
+      "coef": 2.046377608154744e-05,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": -0.0001029327359475658,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 2.9143618893123414e-05,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -0.00010860928192047093,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 2
+      }
+    },
+    {
+      "coef": 0.00012410963770957052,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 2.11824977175467e-05,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 3.0293774162624143e-05,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 2
+      }
+    },
+    {
+      "coef": 0.00023587923530081755,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 5.450389624583756e-05,
+      "powers": {
+        "Amine Scrubber Power Requirement (% MWg)": 2
+      }
+    },
+    {
+      "coef": -5.368682604605337e-11,
+      "powers": {
+        "Gross Electrical Output (MWg)": 3
+      }
+    },
+    {
+      "coef": 1.3497994842397166e-10,
+      "powers": {
+        "Gross Electrical Output (MWg)": 2,
+        "As-Delivered Primary Fuel Cost ($/ton)": 1
+      }
+    },
+    {
+      "coef": -4.80210297123174e-11,
+      "powers": {
+        "Gross Electrical Output (MWg)": 2,
+        "Cooling Water Temperature Rise (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": -2.0081928943159736e-10,
+      "powers": {
+        "Gross Electrical Output (MWg)": 2,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 7.436114239751415e-10,
+      "powers": {
+        "Gross Electrical Output (MWg)": 2,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 8.455700148573204e-09,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "As-Delivered Primary Fuel Cost ($/ton)": 2
+      }
+    },
+    {
+      "coef": -1.172028496936875e-09,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "As-Delivered Primary Fuel Cost ($/ton)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": 1.4153512986041381e-08,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "As-Delivered Primary Fuel Cost ($/ton)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 6.45221520774538e-08,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "As-Delivered Primary Fuel Cost ($/ton)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -1.3262051815548329e-08,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 2
+      }
+    },
+    {
+      "coef": -2.1786826277830244e-08,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -1.4356834995901298e-07,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -2.190478124608858e-08,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 2
+      }
+    },
+    {
+      "coef": -8.866049060673528e-08,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -2.694831163298938e-07,
+      "powers": {
+        "Gross Electrical Output (MWg)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 2
+      }
+    },
+    {
+      "coef": 1.9731106918389167e-07,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 3
+      }
+    },
+    {
+      "coef": 5.675538993274674e-08,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 2,
+        "Cooling Water Temperature Rise (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": 4.5347749372260605e-07,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 2,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -3.7701751960540286e-06,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 2,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 4.362624604211869e-08,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 2
+      }
+    },
+    {
+      "coef": -4.944518933021955e-07,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 2.2653637979841534e-06,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 2.1011518424262656e-07,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 2
+      }
+    },
+    {
+      "coef": 3.698873773228422e-06,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -1.01998455623539e-05,
+      "powers": {
+        "As-Delivered Primary Fuel Cost ($/ton)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 2
+      }
+    },
+    {
+      "coef": 7.903621751895535e-07,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 3
+      }
+    },
+    {
+      "coef": 5.777213273837155e-07,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 2,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 2.2063372631974465e-06,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 2,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -5.609002670926441e-07,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 2
+      }
+    },
+    {
+      "coef": -1.336646722234056e-06,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 1.0102460679115441e-05,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 2
+      }
+    },
+    {
+      "coef": -5.680561482501992e-09,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 3
+      }
+    },
+    {
+      "coef": -1.7565042151529422e-07,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 2,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -1.841754364421164e-05,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 2
+      }
+    },
+    {
+      "coef": 0.0001616167267928855,
+      "powers": {
+        "Amine Scrubber Power Requirement (% MWg)": 3
+      }
+    }
+  ]
+}
