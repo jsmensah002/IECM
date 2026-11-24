@@ -1,0 +1,386 @@
+{
+  "intercept": 416.39962250816154,
+  "degree": 3,
+  "terms": [
+    {
+      "coef": 0.5446366952379849,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": 53.58179164583202,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 1
+      }
+    },
+    {
+      "coef": -1.8077179538884416,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": -6.031455231486039,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 1.1132351268883982,
+      "powers": {
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 0.00032252717521792076,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 2
+      }
+    },
+    {
+      "coef": -0.0026091305363981324,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Natural Gas Cost ($/mscf)": 1
+      }
+    },
+    {
+      "coef": -0.006765372564817281,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": -0.006213318958068022,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -0.0058862935400557205,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 0.09250521987851444,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 2
+      }
+    },
+    {
+      "coef": 0.015071342727456086,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": -0.5608949297354262,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 0.23439101389361988,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 0.023595122152419316,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 2
+      }
+    },
+    {
+      "coef": 0.01839746094667346,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 0.044204819552797606,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 0.02573394965630454,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 2
+      }
+    },
+    {
+      "coef": -0.09042030176361592,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 0.19658503058608162,
+      "powers": {
+        "Amine Scrubber Power Requirement (% MWg)": 2
+      }
+    },
+    {
+      "coef": 5.125864301811729e-07,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 3
+      }
+    },
+    {
+      "coef": 1.536963070265361e-05,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 2,
+        "Natural Gas Cost ($/mscf)": 1
+      }
+    },
+    {
+      "coef": 3.441635644894716e-05,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 2,
+        "Cooling Water Temperature Rise (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": -2.3225144958837508e-05,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 2,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -1.172588311381007e-06,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 2,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 0.00047497454130405445,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Natural Gas Cost ($/mscf)": 2
+      }
+    },
+    {
+      "coef": 0.00012977847348077354,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Natural Gas Cost ($/mscf)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": -6.675904113827825e-05,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Natural Gas Cost ($/mscf)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -0.0007573379965530294,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Natural Gas Cost ($/mscf)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 4.483358787923083e-05,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 2
+      }
+    },
+    {
+      "coef": -1.768438326322062e-05,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 7.599857081508918e-05,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 4.910720009171775e-05,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 2
+      }
+    },
+    {
+      "coef": 0.00019643681868948093,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -0.000584289026422879,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 2
+      }
+    },
+    {
+      "coef": 0.00017750110624506236,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 3
+      }
+    },
+    {
+      "coef": -0.0007809371120321464,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 2,
+        "Cooling Water Temperature Rise (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": -0.0008279337052675578,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 2,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -0.00876551377153872,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 2,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -6.0788275281675115e-05,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 2
+      }
+    },
+    {
+      "coef": -0.00011902480781065934,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -0.0006214488694418915,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 1,
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 0.0018660513694728894,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 2
+      }
+    },
+    {
+      "coef": -0.0008429024232164106,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 0.0012995578610763255,
+      "powers": {
+        "Natural Gas Cost ($/mscf)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 2
+      }
+    },
+    {
+      "coef": -0.00019874483007310164,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 3
+      }
+    },
+    {
+      "coef": 6.839019150990919e-06,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 2,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -0.00035180819232976887,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 2,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -9.640864335829188e-05,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 2
+      }
+    },
+    {
+      "coef": -0.00014701923830901515,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -0.0010944120634629516,
+      "powers": {
+        "Cooling Water Temperature Rise (\u00b0F)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 2
+      }
+    },
+    {
+      "coef": 3.140584991989068e-05,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 3
+      }
+    },
+    {
+      "coef": 0.0007074459201778779,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 2,
+        "Amine Scrubber Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -0.0014003834117348123,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Amine Scrubber Power Requirement (% MWg)": 2
+      }
+    },
+    {
+      "coef": -0.0025001298259356313,
+      "powers": {
+        "Amine Scrubber Power Requirement (% MWg)": 3
+      }
+    }
+  ]
+}
