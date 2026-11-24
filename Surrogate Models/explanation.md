@@ -9,8 +9,9 @@ If a target is built from its inputs using only +, −, *, and whole-number powe
 
 ## Insights from surrogate models:
 
-**Capture is efficiency-driven.** Across all four plants, CO2 captured is controlled
-almost entirely by absorber removal efficiency.
+**Capture is efficiency-driven (except PC).** In IGCC, NGCC and Hydrogen, CO2 captured
+is controlled almost entirely by absorber removal efficiency. PC is the
+exception because for PC, the gross electrical output is  a sampled input whereas in the other plants gross electrical output is not a sampled input (IECM calculates it).
 
 **The capture energy penalty shows up as a sign flip.** The same removal efficiency
 that raises CO2 captured, lowers the net power output.
