@@ -7,7 +7,7 @@ so every plant becomes fast equations a cluster optimizer can query instead of r
 Why Polynomial hits R2 = 1 on some targets:
 If a target is built from its inputs using only +, −, *, and whole-number powers, a polynomial can match it exactly and R2 = 1.0. It fails only when the real relationship needs division, logs, roots, or exponents of those inputs.
 
-## Insights:
+## Insights from surrogate models:
 
 **Capture is efficiency-driven.** Across all four plants, CO2 captured is controlled
 almost entirely by absorber removal efficiency.
