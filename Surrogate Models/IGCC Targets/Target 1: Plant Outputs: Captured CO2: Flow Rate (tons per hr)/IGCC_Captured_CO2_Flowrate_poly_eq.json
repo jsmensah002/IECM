@@ -1,0 +1,136 @@
+{
+  "intercept": 6.067877251258096,
+  "degree": 2,
+  "terms": [
+    {
+      "coef": -0.02577134371048279,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": -0.001866984145246914,
+      "powers": {
+        "As-Delivered Coal Cost ($/ton)": 1
+      }
+    },
+    {
+      "coef": 6.6481741017397935,
+      "powers": {
+        "CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -0.018630935935719527,
+      "powers": {
+        "Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": 0.001400983084721575,
+      "powers": {
+        "Cooling Water Temperature Drop (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": 6.440639100850896e-05,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 2
+      }
+    },
+    {
+      "coef": -1.3168245755697632e-05,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "As-Delivered Coal Cost ($/ton)": 1
+      }
+    },
+    {
+      "coef": -0.006946435068322421,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 2.351098554802515e-05,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -6.442058124904755e-07,
+      "powers": {
+        "Ambient Air Temperature (Dry Bulb Average) (\u00b0F)": 1,
+        "Cooling Water Temperature Drop (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": 1.1508956224060466e-05,
+      "powers": {
+        "As-Delivered Coal Cost ($/ton)": 2
+      }
+    },
+    {
+      "coef": 2.214090754234869e-05,
+      "powers": {
+        "As-Delivered Coal Cost ($/ton)": 1,
+        "CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 3.2742300560509606e-05,
+      "powers": {
+        "As-Delivered Coal Cost ($/ton)": 1,
+        "Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -1.0769307758631362e-05,
+      "powers": {
+        "As-Delivered Coal Cost ($/ton)": 1,
+        "Cooling Water Temperature Drop (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": -0.008109838602827775,
+      "powers": {
+        "CO2 Removal Efficiency (%)": 2
+      }
+    },
+    {
+      "coef": 0.00015884235911319786,
+      "powers": {
+        "CO2 Removal Efficiency (%)": 1,
+        "Power Requirement (% MWg)": 1
+      }
+    },
+    {
+      "coef": -1.6666535202312445e-06,
+      "powers": {
+        "CO2 Removal Efficiency (%)": 1,
+        "Cooling Water Temperature Drop (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": 0.0001951060173265996,
+      "powers": {
+        "Power Requirement (% MWg)": 2
+      }
+    },
+    {
+      "coef": -1.358952288005327e-05,
+      "powers": {
+        "Power Requirement (% MWg)": 1,
+        "Cooling Water Temperature Drop (\u00b0F)": 1
+      }
+    },
+    {
+      "coef": -9.858820125508056e-06,
+      "powers": {
+        "Cooling Water Temperature Drop (\u00b0F)": 2
+      }
+    }
+  ]
+}
