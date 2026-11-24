@@ -1,0 +1,10 @@
+{
+  "intercept": 304.3638312209015,
+  "coefficients": {
+    "Gross Electrical Output (MWg)": -0.02791965020963883,
+    "As-Delivered Primary Fuel Cost ($/ton)": 0.41628728195580833,
+    "Cooling Water Temperature Rise (\u00b0F)": -0.16905084462295064,
+    "Absorber CO2 Removal Efficiency (%)": -1.7726942018690175,
+    "Amine Scrubber Power Requirement (% MWg)": -0.1714149966607269
+  }
+}
