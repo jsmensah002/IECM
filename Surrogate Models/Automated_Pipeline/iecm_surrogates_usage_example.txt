@@ -1,0 +1,154 @@
+Last login: Wed Nov 25 10:24:02 on ttys000
+jessesarpong-mensah@MacBookAir ~ % cd Desktop && cd Trial
+jessesarpong-mensah@MacBookAir Trial % iecm_surrogates
+IECM surrogate pipeline
+
+Drag the dataset CSV here (or paste its path): /Users/jessesarpong-mensah/Desktop/WYO/Uncertainty/Surrogate\ Models/PC_Targets/Target1_CO2_Removed/PC_Uncertainty_dataset.csv 
+
+Columns:
+  1: Gross Electrical Output (MWg)
+  2: As-Delivered Primary Fuel Cost ($/ton)
+  3: Cooling Water Temperature Rise (°F)
+  4: Absorber CO2 Removal Efficiency (%)
+  5: Amine Scrubber Power Requirement (% MWg)
+  6: Important Performance & Cost Factors: CO2 Removed (tons/hr)
+  7: Important Performance & Cost Factors: Net Electrical Output (MW)
+  8: Costs of CO2 Avoided & Captured: Cost of CO2 Captured ($/ton)
+
+Inputs (e.g. 1,2,3,4,5): 1,2,3,4,5
+Targets, each wrapped in [] (e.g. [6][7][8]): [6][7][8]
+
+3 target(s) to run: Important Performance & Cost Factors: CO2 Removed (tons/hr), Important Performance & Cost Factors: Net Electrical Output (MW), Costs of CO2 Avoided & Captured: Cost of CO2 Captured ($/ton)
+
+########## target 1/3 ##########
+
+Run: PC_CO2_Removed   (200 rows, 5 inputs)  ->  /Users/jessesarpong-mensah/Desktop/Trial
+
+  training Linear Regression ...
+  training SVR ...
+  training Random Forest ...
+  training XGBoost ...
+  training Gradient Boost ...
+  training Polynomial ...
+
+==============================================================================
+#  Model                Train R2  Test R2      RMSE      MAE   MAPE%
+------------------------------------------------------------------------------
+1  Linear Regression      0.9856   0.9734   85.7989  69.6270 20.7255
+2  SVR                    0.9850   0.9730   86.4663  70.0560 21.1485
+3  Random Forest          0.9970   0.9800   74.3010  59.3033 17.0750
+4  XGBoost                1.0000   0.9934   42.7300  33.1015  5.8481
+5  Gradient Boost         1.0000   0.9941   40.2341  31.5506  5.7635
+6  Polynomial             1.0000   1.0000    0.0037   0.0024  0.0005
+==============================================================================
+
+Auto-pick for TREE model (SHAP): Gradient Boost
+  press Enter to accept, or type the model number to override: 
+
+Auto-pick for SMOOTH model (Pyomo): Polynomial
+  press Enter to accept, or type the model number to override: 
+
+Using Gradient Boost for SHAP and Polynomial for Pyomo. Saving ...
+Matplotlib is building the font cache; this may take a moment.
+/Users/jessesarpong-mensah/iecm_env/lib/python3.14/site-packages/sklearn/utils/validation.py:2830: UserWarning: X does not have valid feature names, but PolynomialFeatures was fitted with feature names
+  warnings.warn(
+
+Done. Folder: /Users/jessesarpong-mensah/Desktop/Trial
+  PC_CO2_Removed.xlsx, PC_CO2_Removed.ipynb, SHAP PNGs, PC_CO2_Removed_poly_eq.json
+
+########## target 2/3 ##########
+
+Run: PC_Net_Electrical_Output   (200 rows, 5 inputs)  ->  /Users/jessesarpong-mensah/Desktop/Trial
+
+  training Linear Regression ...
+  training SVR ...
+  training Random Forest ...
+  training XGBoost ...
+  training Gradient Boost ...
+  training Polynomial ...
+
+==============================================================================
+#  Model                Train R2  Test R2      RMSE      MAE   MAPE%
+------------------------------------------------------------------------------
+1  Linear Regression      0.9995   0.9994   15.1079  12.0116  3.0269
+2  SVR                    0.9995   0.9994   15.0216  12.0122  2.8693
+3  Random Forest          0.9984   0.9879   69.9630  53.4791 16.6626
+4  XGBoost                1.0000   0.9987   23.1065  19.0506  3.4872
+5  Gradient Boost         1.0000   0.9991   19.5244  15.5755  2.7903
+6  Polynomial             1.0000   1.0000    0.0134   0.0095  0.0032
+==============================================================================
+
+Auto-pick for TREE model (SHAP): Gradient Boost
+  press Enter to accept, or type the model number to override: 
+
+Auto-pick for SMOOTH model (Pyomo): Polynomial
+  press Enter to accept, or type the model number to override: 
+
+Using Gradient Boost for SHAP and Polynomial for Pyomo. Saving ...
+/Users/jessesarpong-mensah/iecm_env/lib/python3.14/site-packages/sklearn/utils/validation.py:2830: UserWarning: X does not have valid feature names, but PolynomialFeatures was fitted with feature names
+  warnings.warn(
+
+Done. Folder: /Users/jessesarpong-mensah/Desktop/Trial
+  PC_Net_Electrical_Output.xlsx, PC_Net_Electrical_Output.ipynb, SHAP PNGs, PC_Net_Electrical_Output_poly_eq.json
+
+########## target 3/3 ##########
+
+Run: PC_Cost_of_CO2_Captured   (200 rows, 5 inputs)  ->  /Users/jessesarpong-mensah/Desktop/Trial
+
+  training Linear Regression ...
+  training SVR ...
+  training Random Forest ...
+  training XGBoost ...
+  training Gradient Boost ...
+  training Polynomial ...
+
+==============================================================================
+#  Model                Train R2  Test R2      RMSE      MAE   MAPE%
+------------------------------------------------------------------------------
+1  Linear Regression      0.7871   0.7743   16.0076  11.5271  7.2021
+2  SVR                    0.9273   0.8423   13.3827   7.0165  3.7656
+3  Random Forest          0.9886   0.9400    8.2532   5.5313  3.7078
+4  XGBoost                0.9999   0.9521    7.3764   5.2183  3.2879
+5  Gradient Boost         1.0000   0.9670    6.1176   4.0789  2.6891
+6  Polynomial             0.9837   0.8615   12.5401   8.5276  5.3676
+==============================================================================
+
+Auto-pick for TREE model (SHAP): Gradient Boost
+  press Enter to accept, or type the model number to override:  
+
+Auto-pick for SMOOTH model (Pyomo): Polynomial
+  press Enter to accept, or type the model number to override: 1
+
+Using Gradient Boost for SHAP and Linear Regression for Pyomo. Saving ...
+
+Done. Folder: /Users/jessesarpong-mensah/Desktop/Trial
+  PC_Cost_of_CO2_Captured.xlsx, PC_Cost_of_CO2_Captured.ipynb, SHAP PNGs, PC_Cost_of_CO2_Captured_linear_eq.json
+
+All targets done.
+jessesarpong-mensah@MacBookAir Trial % ls
+PC_CO2_Removed_bar.png
+PC_CO2_Removed_beeswarm.png
+PC_CO2_Removed_dependence_Absorber_CO2_Removal_Efficiency.png
+PC_CO2_Removed_dependence_Gross_Electrical_Output_MWg.png
+PC_CO2_Removed_poly_eq.json
+PC_CO2_Removed_poly.pkl
+PC_CO2_Removed.ipynb
+PC_CO2_Removed.xlsx
+PC_Cost_of_CO2_Captured_bar.png
+PC_Cost_of_CO2_Captured_beeswarm.png
+PC_Cost_of_CO2_Captured_dependence_Absorber_CO2_Removal_Efficiency.png
+PC_Cost_of_CO2_Captured_dependence_Gross_Electrical_Output_MWg.png
+PC_Cost_of_CO2_Captured_linear_eq.json
+PC_Cost_of_CO2_Captured_linear.pkl
+PC_Cost_of_CO2_Captured.ipynb
+PC_Cost_of_CO2_Captured.xlsx
+PC_Net_Electrical_Output_bar.png
+PC_Net_Electrical_Output_beeswarm.png
+PC_Net_Electrical_Output_dependence_Amine_Scrubber_Power_Requirement_MWg.png
+PC_Net_Electrical_Output_dependence_Gross_Electrical_Output_MWg.png
+PC_Net_Electrical_Output_poly_eq.json
+PC_Net_Electrical_Output_poly.pkl
+PC_Net_Electrical_Output.ipynb
+PC_Net_Electrical_Output.xlsx
+PC_Uncertainty_dataset.csv
+jessesarpong-mensah@MacBookAir Trial % 
