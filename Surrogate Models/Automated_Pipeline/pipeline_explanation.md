@@ -8,7 +8,6 @@ it reproduces the manual results.
 For every target the Linear, SVR, Random Forest, Gradient Boosting and
 Polynomial results match the manual runs, and the models chosen for SHAP and for Pyomo
 come out the same, so the saved equations and SHAP plots are identical.
-
 The minor differences in some of the RMSE, MAE, and MAPE results (compared to the manual run) is because the pipeline runs in an environment with a newer version of the installed libraries than the original notebooks used. It does not affect the chosen
 models or the saved outputs.
 
