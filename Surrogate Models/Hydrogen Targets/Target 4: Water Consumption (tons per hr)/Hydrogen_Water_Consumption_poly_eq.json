@@ -1,0 +1,63 @@
+{
+  "intercept": 3013.2498567779885,
+  "degree": 2,
+  "terms": [
+    {
+      "coef": 2.4119093733460053,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 1
+      }
+    },
+    {
+      "coef": -57.538842562439356,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -1.0369252206971074,
+      "powers": {
+        "Capacity Factor (%)": 1
+      }
+    },
+    {
+      "coef": 0.013461343276464562,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 2
+      }
+    },
+    {
+      "coef": -0.0338314801556528,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 0.007938182056041208,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 1,
+        "Capacity Factor (%)": 1
+      }
+    },
+    {
+      "coef": 0.3206697163734645,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 2
+      }
+    },
+    {
+      "coef": 0.009606520293326329,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Capacity Factor (%)": 1
+      }
+    },
+    {
+      "coef": 0.0007033099769677039,
+      "powers": {
+        "Capacity Factor (%)": 2
+      }
+    }
+  ]
+}
