@@ -1,0 +1,8 @@
+{
+  "intercept": 3.263121819974124e-08,
+  "coefficients": {
+    "Natural Gas Cost ($/MMBtu, HHV)": 1.149317323056357e-10,
+    "Absorber CO2 Removal Efficiency (%)": -3.570815942432858e-10,
+    "Capacity Factor (%)": 0.0016436252420704736
+  }
+}
