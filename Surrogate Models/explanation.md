@@ -15,4 +15,4 @@ If a target is built from its inputs using only +, −, *, and whole-number powe
 
 **Output reflects each technology.** NGCC net output is dominated by ambient temperature, IGCC spreads the load across ambient, efficiency and scrubber power, while Hydrogen production is driven almost entirely by capacity factor.
 
-**Cost is economics, and differs by plant.** The cost driver changes with the technology: PC cost is driven by gross electrical output, IGCC plant by capture efficiency, NGCC and Hydrogen plants by natural gas price.
+**Cost of CO2 captured differs by plant.** PC cost of CO2 captured is driven by gross electrical output, IGCC plant by capture efficiency, NGCC and Hydrogen plants by natural gas price.
