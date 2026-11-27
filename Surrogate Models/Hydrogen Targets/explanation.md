@@ -29,3 +29,15 @@ The 2204.62 converts hydrogen from tonnes to pounds so the hydrogen units cancel
 [1 lb/kWh = 1000 lb/MWh]
 
 [1000 lb = 1 ton]
+
+## Water Consumption (tons/hr)
+
+IECM does not report a single whole-plant water consumption figure on a basis consistent across the four plants, so it is built from the cooling tower's two consumptive streams. For a wet cooling tower, the water actually lost (not returned to the source) is evaporation plus drift:
+
+    Water Consumption (tons/hr) =
+        Evaporation (tons/hr)
+        + Drift Loss (tons/hr)
+
+Blowdown is excluded because it is discharged back to the source, so it is withdrawn but not consumed. Makeup water (evaporation + drift + blowdown) would measure withdrawal rather than consumption.
+
+For the power plants (PC, IGCC and NGCC), rows where IECM returns zero evaporation are dropped before modeling. At high wet-bulb temperature the wet cooling tower design becomes infeasible, because the wet-bulb approaches the fixed cooling water inlet temperature, and IECM zeros the water balance even though the plant still produces output. Those zeros are an infeasible-design artifact, not real zero-consumption points. The hydrogen dataset contains no such rows.
