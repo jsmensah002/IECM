@@ -4,17 +4,24 @@ Two columns are computed from IECM outputs rather than pulled directly, because 
 
 ## CO2 Captured (tons/hr)
 
-IECM reports hydrogen CO2 annually, and its direct "CO2 Captured (tons/hr)" output does not match the plant's total annual capture. This is because from the hydrogen uncertainty export file (Hyrogen_uncertainty_export.txt), the direct 'CO2 Captured (tons/hr)' output equals 'CO2 Captured from MEA' (confirmed identical across all rows), i.e. only the flue-gas stream, not the whole plant.
-To get a whole-plant hourly rate, the annual capture is divided by annual operating hours:
+IECM reports hydrogen CO2 annually, and its direct "CO2 Captured (tons/hr)" output does not match the plant's total annual capture. This is because from the hydrogen uncertainty export file (Hyrogen_uncertainty_export.txt), the direct "CO2 Captured (tons/hr)" output equals "CO2 Captured from MEA" (confirmed identical across all rows), i.e. only the flue-gas stream, not the whole plant.
+To get a whole-plant hourly rate, Annual CO2 Captured is divided by Annual Operating Hours, then converted from metric tonnes to short tons:
 
-    CO2 Captured (tons/hr) = Annual CO2 Captured × 1,000,000 ÷ Annual Operating Hours
+    CO2 Captured (tons/hr) =
+        Annual CO2 Captured (million tonne/yr) × 1,000,000 (tonne/million tonne)
+        ÷ Annual Operating Hours (hours)
+        × 1.10231 (short ton/tonne)
 
-Both figures cover the same year, so the year cancels and the result is a rate in tonnes per hour.
+Both figures cover the same year, so the year cancels and dividing gives a rate in metric tonnes per hour. The 1.10231 then converts metric tonnes to short tons, because the power plants report CO2 Removed in short tons.
 
 ## Cost of CO2 Captured ($/ton)
 
-The hydrogen module provides no cost of CO2 captured; its only CO2-cost metric is "cost of CO2 avoided," which returns unusable negative values for this always-on-CCS plant. The power-plant "Cost of CO2 Captured" was found to equal the full levelized cost of electricity divided by the CO2 captured, not an incremental with/without-capture figure. The same basis is applied here: the full levelized cost of hydrogen divided by the CO2 captured per unit of hydrogen:
+The hydrogen module provides no cost of CO2 captured; its only CO2-cost metric is "cost of CO2 avoided," which returns unusable negative values for this always-on-CCS plant. The power-plant "Cost of CO2 Captured" was found to equal the full levelized cost of electricity divided by the CO2 captured, not an incremental with/without-capture figure. The same basis is applied here: the full Levelized Cost of hydrogen divided by the CO2 captured per unit of hydrogen:
 
-    Cost of CO2 Captured ($/ton) = Levelized Cost ($/lb H2) × (Annual H2 ÷ Annual CO2) × 2204.62
+    Cost of CO2 Captured ($/ton) =
+        Levelized Cost ($/lb H2)
+        × Annual H2 Production (million tonne/yr) ÷ Annual CO2 Captured (million tonne/yr)
+        × 2204.62 (lb/tonne)
+        ÷ 1.10231 (short ton/tonne)
 
-The 2204.62 converts hydrogen from tonnes to pounds so the hydrogen units cancel against the per-pound cost, leaving $/tonne CO2. This keeps hydrogen on the same cost basis as the PC, IGCC and NGCC plants (result: ~$135 to 341/ton, within the power-plant range).
+The 2204.62 converts hydrogen from tonnes to pounds so the hydrogen units cancel against the per-pound cost, leaving $/metric tonne CO2. The 1.10231 then converts to $/short ton, matching the power plants. This keeps hydrogen on the same cost basis as the PC, IGCC and NGCC plants.
