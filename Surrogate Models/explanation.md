@@ -11,7 +11,7 @@ If a target is built from its inputs using only +, −, *, and whole-number powe
 
 **Capture is efficiency-driven (except PC).** In IGCC, NGCC and Hydrogen, CO2 captured is controlled almost entirely by absorber removal efficiency. PC is the exception because for PC, the gross electrical output is a sampled input whereas in the other plants gross electrical output is not a sampled input (IECM calculates it).
 
-**Capturing more CO2 costs power.** Higher removal efficiency raises CO2 captured but lowers net power output in IGCC. The same effect appears in NGCC but is minor, since NGCC net output is driven mostly by ambient temperature. PC and Hydrogen are the exceptions: PC net output is set by its sampled gross electrical output, and Hydrogen's output is H2 production, driven by capacity factor rather than efficiency.
+**Capture and power output trade off.** Higher removal efficiency raises CO2 captured but lowers net power output in IGCC. The same effect appears in NGCC but is minor, since NGCC net output is driven mostly by ambient temperature. PC and Hydrogen are the exceptions: PC net output is set by its sampled gross electrical output, and Hydrogen's output is H2 production, driven by capacity factor rather than efficiency.
 
 **Output reflects each technology.** NGCC net output is dominated by ambient temperature, IGCC spreads the load across ambient, efficiency and scrubber power, while Hydrogen production is driven almost entirely by capacity factor.
 
