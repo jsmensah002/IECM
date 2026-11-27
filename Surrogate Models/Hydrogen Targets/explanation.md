@@ -16,7 +16,7 @@ Both figures cover the same year, so the year cancels and dividing gives a rate 
 
 ## Cost of CO2 Captured ($/ton)
 
-The hydrogen module provides no cost of CO2 captured; its only CO2-cost metric is "cost of CO2 avoided," which returns unusable negative values for this always-on-CCS plant. The power-plant "Cost of CO2 Captured" was found to equal the full levelized cost of electricity divided by the CO2 captured, not an incremental with/without-capture figure. The same basis is applied here: the full Levelized Cost of hydrogen divided by the CO2 captured per unit of hydrogen:
+The hydrogen module provides no cost of CO2 captured. The power-plants "Cost of CO2 Captured" was found to equal the full levelized cost of electricity divided by the CO2 captured. The same basis is applied here: the full Levelized Cost of hydrogen divided by the CO2 captured per unit of hydrogen:
 
     Cost of CO2 Captured ($/ton) =
         Levelized Cost ($/lb H2)
