@@ -3,6 +3,7 @@
 For each output (target), two surrogates are trained, a tree based model read with SHAP to explain what drives it
 and a smooth linear or polynomial model to embed in the Pyomo optimizer,
 so every plant becomes fast equations a cluster optimizer can query instead of rerunning IECM.
+Water consumption is the exception to the clean fits above. On PC it is multiplicative and spans a wide range, so it is fitted in log space and the predictions are exponentiated back to tons/hr. On IGCC it is only weakly predictable, because its cooling load depends on process-area water demands that were not part of the sampled inputs.
 
 Why Polynomial hits R2 = 1 on some targets:
 If a target is built from its inputs using only +, −, *, and whole-number powers, a polynomial can match it exactly making R2 = 1.0. It fails only when the real relationship needs division, logs, roots, or exponents of those inputs.
@@ -16,3 +17,5 @@ If a target is built from its inputs using only +, −, *, and whole-number powe
 **Output reflects each technology.** NGCC net output is dominated by ambient temperature, IGCC spreads the load across ambient, efficiency and scrubber power, while Hydrogen production is driven almost entirely by capacity factor.
 
 **Cost of CO2 captured differs by plant.** PC cost of CO2 captured is driven by gross electrical output, IGCC plant by capture efficiency, NGCC and Hydrogen plants by natural gas price.
+
+**Water consumption.** In PC, NGCC and IGCC, water consumption is driven mainly by the cooling tower temperature change. Capture efficiency is only a minor driver on these plants. Hydrogen has no cooling tower temperature input, so its water is driven by absorber removal efficiency.
