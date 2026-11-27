@@ -4,7 +4,8 @@ Two columns are computed from IECM outputs rather than pulled directly, because 
 
 ## CO2 Captured (tons/hr)
 
-IECM reports hydrogen CO2 annually, and its direct "CO2 Captured (tons/hr)" output does not match the plant's total annual capture. To get a whole-plant hourly rate, the annual capture is divided by annual operating hours:
+IECM reports hydrogen CO2 annually, and its direct "CO2 Captured (tons/hr)" output does not match the plant's total annual capture. This is because from the hydrogen uncertainty export file (Hyrogen_uncertainty_export.txt), the direct 'CO2 Captured (tons/hr)' output equals 'CO2 Captured from MEA' (confirmed identical across all rows), i.e. only the flue-gas stream, not the whole plant.
+To get a whole-plant hourly rate, the annual capture is divided by annual operating hours:
 
     CO2 Captured (tons/hr) = Annual CO2 Captured × 1,000,000 ÷ Annual Operating Hours
 
