@@ -1,0 +1,236 @@
+{
+  "intercept": 330.0020940712892,
+  "degree": 4,
+  "terms": [
+    {
+      "coef": 13.842859956661835,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 1
+      }
+    },
+    {
+      "coef": -0.9133094379774075,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -1.6371004889759186,
+      "powers": {
+        "Capacity Factor (%)": 1
+      }
+    },
+    {
+      "coef": 0.1592102792266825,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 2
+      }
+    },
+    {
+      "coef": 0.06652336888178646,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 0.023548034858322645,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 1,
+        "Capacity Factor (%)": 1
+      }
+    },
+    {
+      "coef": -0.006876425015432707,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 2
+      }
+    },
+    {
+      "coef": -0.011844686134460181,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Capacity Factor (%)": 1
+      }
+    },
+    {
+      "coef": 0.005072997891619763,
+      "powers": {
+        "Capacity Factor (%)": 2
+      }
+    },
+    {
+      "coef": -0.006308533567551163,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 3
+      }
+    },
+    {
+      "coef": -0.0002314660680362008,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 2,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": -0.0016824241211034466,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 2,
+        "Capacity Factor (%)": 1
+      }
+    },
+    {
+      "coef": 3.1703769699215494e-05,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 2
+      }
+    },
+    {
+      "coef": -2.8396303628127747e-05,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Capacity Factor (%)": 1
+      }
+    },
+    {
+      "coef": 2.7068361476786857e-05,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 1,
+        "Capacity Factor (%)": 2
+      }
+    },
+    {
+      "coef": 2.528696534184049e-07,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 3
+      }
+    },
+    {
+      "coef": -6.84367097742492e-05,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 2,
+        "Capacity Factor (%)": 1
+      }
+    },
+    {
+      "coef": 5.24927855752992e-05,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Capacity Factor (%)": 2
+      }
+    },
+    {
+      "coef": 4.962706769245007e-05,
+      "powers": {
+        "Capacity Factor (%)": 3
+      }
+    },
+    {
+      "coef": -0.0002934533893659884,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 4
+      }
+    },
+    {
+      "coef": 9.227528199295367e-05,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 3,
+        "Absorber CO2 Removal Efficiency (%)": 1
+      }
+    },
+    {
+      "coef": 6.971345646663721e-05,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 3,
+        "Capacity Factor (%)": 1
+      }
+    },
+    {
+      "coef": -1.0296004191947612e-05,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 2,
+        "Absorber CO2 Removal Efficiency (%)": 2
+      }
+    },
+    {
+      "coef": 9.351592342061067e-07,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 2,
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Capacity Factor (%)": 1
+      }
+    },
+    {
+      "coef": 1.1303863867651416e-06,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 2,
+        "Capacity Factor (%)": 2
+      }
+    },
+    {
+      "coef": -4.4625798981577234e-06,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 3
+      }
+    },
+    {
+      "coef": -1.2715830825879741e-06,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 2,
+        "Capacity Factor (%)": 1
+      }
+    },
+    {
+      "coef": 1.2685474909537971e-06,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 1,
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Capacity Factor (%)": 2
+      }
+    },
+    {
+      "coef": -1.3056998605021143e-06,
+      "powers": {
+        "Natural Gas Cost ($/MMBtu, HHV)": 1,
+        "Capacity Factor (%)": 3
+      }
+    },
+    {
+      "coef": 8.906668870830794e-07,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 4
+      }
+    },
+    {
+      "coef": -2.0027412625253295e-08,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 3,
+        "Capacity Factor (%)": 1
+      }
+    },
+    {
+      "coef": 5.372940520652838e-07,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 2,
+        "Capacity Factor (%)": 2
+      }
+    },
+    {
+      "coef": 2.1254228464647378e-07,
+      "powers": {
+        "Absorber CO2 Removal Efficiency (%)": 1,
+        "Capacity Factor (%)": 3
+      }
+    },
+    {
+      "coef": -5.291530349067799e-07,
+      "powers": {
+        "Capacity Factor (%)": 4
+      }
+    }
+  ]
+}
