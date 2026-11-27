@@ -16,7 +16,7 @@ Both figures cover the same year, so the year cancels and dividing gives a rate 
 
 ## Cost of CO2 Captured ($/ton)
 
-The hydrogen module provides no cost of CO2 captured. The power-plants "Cost of CO2 Captured" was found to equal the full levelized cost of electricity divided by the CO2 captured. The same basis is applied here: the full Levelized Cost of hydrogen divided by the CO2 captured per unit of hydrogen:
+The hydrogen module provides no cost of CO2 captured. The power-plant "Cost of CO2 Captured" was found to equal the cost of electricity multiplied by the electricity produced per unit of CO2 captured. The same basis is applied here: the full Levelized Cost of hydrogen multiplied by the hydrogen produced per unit of CO2 captured:
 
     Cost of CO2 Captured ($/ton) =
         Levelized Cost ($/lb H2)
