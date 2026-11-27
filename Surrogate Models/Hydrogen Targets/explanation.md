@@ -27,4 +27,5 @@ The hydrogen module provides no cost of CO2 captured. The power-plant "Cost of C
 The 2204.62 converts hydrogen from tonnes to pounds so the hydrogen units cancel against the per-pound cost, leaving a cost in dollars per metric tonne of CO2. The 1.10231 then converts it to dollars per short ton, matching the power plants. This keeps hydrogen on the same cost basis as the PC, IGCC and NGCC plants.
 
 [1 lb/kWh = 1000 lb/MWh]
+
 [1000 lb = 1 ton]
