@@ -9,7 +9,7 @@ To get a whole-plant hourly rate, Annual CO2 Captured is divided by Annual Opera
 
     CO2 Captured (tons/hr) =
         Annual CO2 Captured (million tonne/yr) × 1,000,000 (tonne/million tonne)
-        ÷ Annual Operating Hours (hours)
+        ÷ Annual Operating Hours (hours/year)
         × 1.10231 (short ton/tonne)
 
 Both figures cover the same year, so the year cancels and dividing gives a rate in metric tonnes per hour. The 1.10231 then converts metric tonnes to short tons, because the power plants report CO2 Removed in short tons.
