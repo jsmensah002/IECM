@@ -18,4 +18,4 @@ If a target is built from its inputs using only +, −, *, and whole-number powe
 
 **Cost of CO2 captured differs by plant.** PC cost of CO2 captured is driven by gross electrical output, IGCC plant by capture efficiency, NGCC and Hydrogen plants by natural gas price.
 
-**Water consumption.** In PC, NGCC and IGCC, water consumption is driven mainly by the cooling tower temperature change. Capture efficiency is only a minor driver on these plants. Hydrogen has no cooling tower temperature input, so its water is driven by absorber removal efficiency.
+**Water consumption.** In PC, NGCC and IGCC, water consumption is driven mainly by the cooling tower temperature change. Capture efficiency is only a minor driver on these plants. Hydrogen has no cooling tower temperature among its inputs, so its water is driven by absorber removal efficiency.
