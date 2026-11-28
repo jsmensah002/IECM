@@ -18,4 +18,6 @@ If a target is built from its inputs using only +, −, *, and whole-number powe
 
 **Cost of CO2 captured differs by plant.** PC cost of CO2 captured is driven by gross electrical output, IGCC plant by capture efficiency, NGCC and Hydrogen plants by natural gas price.
 
-**Water consumption.** In PC, NGCC and IGCC, water consumption is driven mainly by the cooling tower temperature change. Capture efficiency is only a minor driver on these plants. In IECM, hydrogen's cooling-tower ΔT is held fixed rather than sampled, so it carries no variance in the surrogate, leaving absorber efficiency as the dominant driver.
+**Water consumption** In PC, NGCC and IGCC, water consumption is driven mainly by the cooling water temperature change (rise/drop). Cooling tower temperature change is the difference between the cooling water's inlet and outlet temperatures: it shows up as a "rise" where the water heats up passing through the plant and as a "drop" where it cools back down in the tower.
+
+Hydrogen has the same arrangement, with its cooling water running from an inlet of about 60.8 °F to an outlet of about 80.6 °F, a gap of roughly 20 °F. The difference is that in IECM this temperature is held fixed rather than sampled as an uncertain input, so it carries no variance in the surrogate, leaving absorber efficiency as the dominant driver.
